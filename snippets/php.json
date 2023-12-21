@@ -1,0 +1,55 @@
+{
+  // Place your snippets for php here. Each snippet is defined under a snippet name and has a prefix, body and
+  // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+  // same ids are connected.
+
+  "Create var_dump": {
+    "prefix": "dump",
+    "body": [
+      "echo '<pre>';",
+      "var_dump($1);",
+      "echo '</pre>';"
+    ],
+    "description": "var_dump with pre tags"
+  },
+  "Create print_r": {
+    "prefix": "printr",
+    "body": [
+      "echo '<pre>';",
+      "print_r($1);",
+      "echo '</pre>';"
+    ],
+    "description": "print_r with pre tags"
+  },
+  "Create pll_": {
+    "prefix": "pll",
+    "body": [
+      "pll__('$1');"
+    ],
+    "description": "polylang without echo"
+  },
+  "Create pll_e": {
+    "prefix": "plle",
+    "body": [
+      "pll_e('$1');"
+    ],
+    "description": "polylang echo"
+  },
+  "Create php_field": {
+    "prefix": "pfield",
+    "body": [
+      "echo get_field('$1')"
+    ],
+    "description": "Create php ACF field"
+  },
+  "Create pc_po": {
+    "prefix": "pcpo",
+    "body": [
+      "?>",
+      "$1",
+      "<?php"
+    ],
+    "description": "print_r with pre tags"
+  },
+}
